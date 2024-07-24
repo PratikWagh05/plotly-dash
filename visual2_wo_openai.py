@@ -9,6 +9,7 @@ df = pd.read_csv(file_path)
 
 # Dash App
 app = dash.Dash(__name__)
+server = app.server
 
 # Define styles
 styles = {
