@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the dataset
-file_path = 'Final.csv'
+file_path = 'https://raw.githubusercontent.com/PratikWagh05/plotly-dash/main/Final.csv'
 df = pd.read_csv(file_path)
 
 # Dash App
