@@ -2,6 +2,8 @@ import dash
 from dash import dcc, html, Input, Output
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 
 # Load the dataset
 file_path = 'https://raw.githubusercontent.com/PratikWagh05/plotly-dash/main/Final.csv'
